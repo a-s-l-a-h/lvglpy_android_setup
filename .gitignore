@@ -1,0 +1,41 @@
+/test/
+test/
+/temp/
+temp/
+droidbindnobuild.py
+droidbindnobuild.py
+droidbind_settings.json
+*.json
+
+# ---------------------------------------------------
+# Build and Workspace Directories
+# ---------------------------------------------------
+# Ignore the generated workspace where clones, NDK builds, and wheels happen
+lvglpy_build/
+
+# ---------------------------------------------------
+# Application State / Settings
+# ---------------------------------------------------
+# Ignore UI settings files saved by the Tkinter app
+*_settings.json
+droidbind_settings.json
+lvglpy_builder_settings.json
+droidbind.py
+
+# ---------------------------------------------------
+# Python
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+*.whl
+
+# ---------------------------------------------------
+# OS-Specific Files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
