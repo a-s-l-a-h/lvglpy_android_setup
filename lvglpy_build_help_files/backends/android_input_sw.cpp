@@ -204,6 +204,11 @@ void lvgl_py_display_init(int width, int height, bool resizable){
     LOGI("lvgl_py_display_init: Android-SW");
 }
 
+// ---> THIS IS THE ONLY NEW FUNCTION ADDED // and not sure needed or not debugging the logic<---
+void lvgl_py_run(void) {
+    LOGI("lv.run() called by Python -> Returning immediately (Handled by Android GL)");
+}
+
 const char *lvgl_py_backend_name(void){
     return "Android-SW";
 }
